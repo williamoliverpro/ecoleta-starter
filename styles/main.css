@@ -13,7 +13,7 @@ html {
 }
 
 body {
-    background: #f0f0f5
+    background: #f0f0f5;
     -webkit-font-smoothing: antialiased;
 }
 
@@ -31,7 +31,7 @@ h1, h2, h3, h4, h5, h6 {
     height: 100vh;
 
     background: url('../assets/home-background.svg') no-repeat;
-    background-position: 35vw 15vh; /* background-position: 35vw bottom;*/
+    background-position: 35vw bottom;
 }
 
 #page-home .content {
@@ -156,5 +156,17 @@ h1, h2, h3, h4, h5, h6 {
 
     #page-home main {
         align-items: center;
+    }
+}
+
+@media (min-width: 1700px) {
+    #page-home {
+        background-position-x: 40vw;
+    }
+}
+
+@media (max-height: 760px) {
+    #page-home {
+        background-position-y: 200px;
     }
 }
