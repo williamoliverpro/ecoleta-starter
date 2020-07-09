@@ -29,7 +29,7 @@ This app features all the latest tools and practices in mobile development!
 
 - ⚛️ **Nunjucks** — A full featured templating engine for javascript
 - ⚛️ **Flexbox** — A CSS3 web layout model.
-- 💹 **SQLite3** — S relational database management system (RDBMS) contained in a C library.
+- 💹 **SQLite3** — Is relational database management system (RDBMS) contained in a C library.
 
 ## Getting started
 
